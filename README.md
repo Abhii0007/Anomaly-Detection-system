@@ -1,5 +1,5 @@
 Intrusion Anomaly Detection System (IADS)
-
+Authenication PASSWORD = 'abhi'
 #-----------------------------------Overview--------------------------------
 The Intrusion Anomaly Detection System (IADS) is a Python-based 
 desktop application developed using the Qt Framework (PySide6) 
