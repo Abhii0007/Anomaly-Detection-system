@@ -3,6 +3,7 @@ Intrusion Anomaly Detection System (IADS)
 Project Authentication PASSWORD = 'abhi'
 
 #-----------------------------------Overview--------------------------------
+
 The Intrusion Anomaly Detection System (IADS) is a Python-based 
 desktop application developed using the Qt Framework (PySide6) 
 and Windows APIs. The system monitors suspicious or unauthorized 
@@ -60,6 +61,7 @@ CMD = python main.py
 
 
 #----------------------------------------How it works--------------------------------
+
 Monitoring System:
 The system continuously monitors the device’s resource usage, including CPU, memory, and running processes.
 Network Activity Sniffing:
