@@ -1,0 +1,100 @@
+
+from PySide6.QtCore import (QCoreApplication, QDate, QDateTime, QLocale,
+    QMetaObject, QObject, QPoint, QRect,
+    QSize, QTime, QUrl, Qt)
+from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
+    QFont, QFontDatabase, QGradient, QIcon,
+    QImage, QKeySequence, QLinearGradient, QPainter,
+    QPalette, QPixmap, QRadialGradient, QTransform)
+from PySide6.QtWidgets import (QApplication, QFrame, QLabel, QLineEdit,
+    QPushButton, QSizePolicy, QWidget)
+
+class Ui_Form(object):
+    def setupUi(self, Form):
+        if not Form.objectName():
+            Form.setObjectName(u"Form")
+        Form.resize(1366, 768)
+        self.movie7 = QLabel(Form)
+        self.movie7.setObjectName(u"movie7")
+        self.movie7.setGeometry(QRect(521, 466, 300, 101))
+        self.movie7.setFrameShape(QFrame.NoFrame)
+        self.movie7.setFrameShadow(QFrame.Plain)
+        self.movie7.setLineWidth(1)
+        self.movie7.setPixmap(QPixmap(u"login1.png"))
+        self.movie7.setScaledContents(True)
+        self.label_3 = QLabel(Form)
+        self.label_3.setObjectName(u"label_3")
+        self.label_3.setGeometry(QRect(620, 460, 101, 31))
+        font = QFont()
+        font.setPointSize(12)
+        self.label_3.setFont(font)
+        self.label_3.setStyleSheet(u"color: rgb(1, 255, 247);")
+        self.lineEdit_2 = QLineEdit(Form)
+        self.lineEdit_2.setObjectName(u"lineEdit_2")
+        self.lineEdit_2.setGeometry(QRect(569, 501, 201, 31))
+        self.lineEdit_2.setFont(font)
+        self.lineEdit_2.setMaxLength(8)
+        self.lineEdit_2.setEchoMode(QLineEdit.Password)
+        self.lineEdit_2.setCursorPosition(0)
+        self.label_4 = QLabel(Form)
+        self.label_4.setObjectName(u"label_4")
+        self.label_4.setGeometry(QRect(557, 150, 227, 43))
+        self.label_4.setFont(font)
+        self.label_4.setStyleSheet(u"color: rgb(28, 251, 255);")
+        self.label_2 = QLabel(Form)
+        self.label_2.setObjectName(u"label_2")
+        self.label_2.setGeometry(QRect(521, 190, 300, 281))
+        self.label_2.setFrameShape(QFrame.NoFrame)
+        self.label_2.setPixmap(QPixmap(u"logo3.png"))
+        self.label_2.setScaledContents(True)
+        self.movie = QLabel(Form)
+        self.movie.setObjectName(u"movie")
+        self.movie.setGeometry(QRect(521, 156, 300, 311))
+        self.movie.setFrameShape(QFrame.NoFrame)
+        self.movie.setFrameShadow(QFrame.Raised)
+        self.movie.setLineWidth(3)
+        self.movie.setScaledContents(True)
+        self.frame_back = QLabel(Form)
+        self.frame_back.setObjectName(u"frame_back")
+        self.frame_back.setGeometry(QRect(519, 154, 305, 415))
+        self.frame_back.setFrameShape(QFrame.Box)
+        self.frame_back.setFrameShadow(QFrame.Sunken)
+        self.frame_back.setLineWidth(3)
+        self.frame_back.setMidLineWidth(0)
+        self.close_btn0 = QPushButton(Form)
+        self.close_btn0.setObjectName(u"close_btn0")
+        self.close_btn0.setGeometry(QRect(790, 156, 31, 21))
+        font1 = QFont()
+        font1.setFamilies([u"Arial"])
+        font1.setPointSize(12)
+        font1.setBold(True)
+        self.close_btn0.setFont(font1)
+        self.close_btn0.setCursor(QCursor(Qt.PointingHandCursor))
+        self.close_btn0.setStyleSheet(u"color: rgb(255, 255, 255);\n"
+"background-color: rgb(255, 0, 0);")
+        self.frame_back.raise_()
+        self.movie7.raise_()
+        self.lineEdit_2.raise_()
+        self.movie.raise_()
+        self.label_4.raise_()
+        self.label_2.raise_()
+        self.label_3.raise_()
+        self.close_btn0.raise_()
+
+        self.retranslateUi(Form)
+
+        QMetaObject.connectSlotsByName(Form)
+    # setupUi
+
+    def retranslateUi(self, Form):
+        Form.setWindowTitle(QCoreApplication.translate("Form", u"Form", None))
+        self.movie7.setText("")
+        self.label_3.setText(QCoreApplication.translate("Form", u"Authentication", None))
+        self.lineEdit_2.setPlaceholderText(QCoreApplication.translate("Form", u"Enter Password...", None))
+        self.label_4.setText(QCoreApplication.translate("Form", u"Welcome to  the Project IDS v1.1", None))
+        self.label_2.setText("")
+        self.movie.setText(QCoreApplication.translate("Form", u"TextLabel", None))
+        self.frame_back.setText(QCoreApplication.translate("Form", u"TextLabel", None))
+        self.close_btn0.setText(QCoreApplication.translate("Form", u"X", None))
+    # retranslateUi
+
