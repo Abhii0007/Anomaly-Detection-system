@@ -2,6 +2,14 @@ Intrusion Anomaly Detection System (IADS)
 
 Project Authentication PASSWORD = 'abhi'
 
+
+
+![App Screenshots](Screenshots/Screenshot_admin.png)
+![App Screenshots](Screenshots/Screenshot_main.png)
+![App Screenshots](Screenshots/Screenshot_database.png)
+![App Screenshots](Screenshots/Screenshot_NIDS.png)
+
+
 #-----------------------------------Overview--------------------------------
 
 The Intrusion Anomaly Detection System (IADS) is a Python-based 
